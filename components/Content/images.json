@@ -1,0 +1,57 @@
+{
+  "homeImages": {
+    "banner": "/home-banner.jpg",
+    "h2Image": "/home-h2image.jpg",
+    "h3Image": "/home-h3image.jpg"
+  },
+  "aboutImages": {
+    "banner": "/about-banner.jpg",
+    "h2Image": "/about-h2image.jpg"
+  },
+  "contactImages": {
+    "banner": "/contact-banner.jpg",
+    "h2Image": "/contact-h2image.jpg",
+    "h3Image": "/contact-h3image.jpg"
+  },
+  "locationPageImages": {
+    "banner": "/location-banner.jpg"
+  },
+  "ourBrandImages": {
+    "banner": "/ourbrand-banner.jpg",
+    "h2Image": "/ourbrand-h2image.jpg"
+  },
+  "serviceImages": {
+    "banner": "/service-banner.jpg",
+    "subservices": {
+      "service1": "/service1.jpg",
+      "service2": "/service2.jpg",
+      "service3": "/service3.jpg",
+      "service4": "/service4.jpg",
+      "service5": "/service5.jpg",
+      "service6": "/service6.jpg"
+    }
+  },
+  "subdomainImages": {
+    "banner": "/subdomain-banner.jpg",
+    "h2Image": "/subdomain-h2image.jpg",
+    "h5Image": "/subdomain-h5image.jpg",
+    "h6Image": "/subdomain-h6image.jpg",
+    "h7Image": "/subdomain-h7image.jpg",
+    "logo": "/subdomain-logo.png"
+  },
+  "typesImages": {
+    "banner": "/types-banner.jpg",
+    "subtypes": {
+      "service1": "/types1.jpg",
+      "service2": "/types2.jpg",
+      "service3": "/types3.jpg",
+      "service4": "/types4.jpg"
+    }
+  },
+  "globalImages":
+  {
+    "logo": "/logo.png",
+    "banner": "/banner.jpg",
+    "favicon": "/favicon.ico"
+  }
+}
