@@ -1,7 +1,4 @@
 import rawSubdomainData from "@/components/Content/subDomainUrlContent.json";
-import localImages from "@/local-image-paths.json"
-
-const newImages = localImages.subDomainUrlContent[0];
 
 // Adjust path if needed
 export interface SubdomainNeedsItem {
@@ -56,11 +53,11 @@ const sanitizeSubdomain = (data: any): SubdomainDataItem => ({
   slug: data?.slug || "",
   metaTitle: data?.metaTitle || "",
   metaDescription: data?.metaDescription || "",
-  bannerImage: `/subDomainUrlContent/${newImages?.bannerImage}` || "",
+  bannerImage: data?.bannerImage || "",
   h1Banner: data?.h1Banner || "",
   h2: data?.h2 || "",
   p2: data?.p2 || "",
-  h2Image: `/subDomainUrlContent/${newImages?.h2Image}` || "",
+  h2Image: data?.h2Image || "",
   serviceTtile: data?.serviceTtile || "",
   needsSection: {
     title: data?.needsSection?.title || "",
@@ -87,7 +84,7 @@ const sanitizeSubdomain = (data: any): SubdomainDataItem => ({
   },
   h5: data?.h5 || "",
   p5: data?.p5 || "",
-  h5Image: `/subDomainUrlContent/${newImages?.h5Image}` || "",
+  h5Image: data?.h5Image || "",
   faq: Array.isArray(data?.faq)
     ? data.faq.map(
         (item: any): SubdomainFaqItem => ({
